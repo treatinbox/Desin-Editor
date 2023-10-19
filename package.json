@@ -1,5 +1,5 @@
 {
-  "name": "miniPaint",
+  "name": "solarsign",
   "version": "4.13.0",
   "author": "Vilius L.",
   "description": "Online graphics editing tool lets create, edit images using HTML5 technologies.",
@@ -15,11 +15,7 @@
     "dev": "webpack --mode development",
     "build": "webpack --mode production"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/viliusle/miniPaint"
-  },
-  "homepage": "https://github.com/viliusle/miniPaint",
+ 
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.14.5",

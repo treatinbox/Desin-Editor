@@ -1,5 +1,5 @@
 /*
- * miniPaint - https://github.com/viliusle/miniPaint
+ * Solar Sign - https://github.com/viliusle/Solar Sign
  * author: Vilius L.
  */
 
@@ -223,7 +223,7 @@ class Base_gui_class {
 			return undefined;
 		});
 
-		document.getElementById('canvas_minipaint').addEventListener('contextmenu', function (e) {
+		document.getElementById('canvas_Solar Sign').addEventListener('contextmenu', function (e) {
 			e.preventDefault();
 		}, false);
 	}
@@ -231,13 +231,13 @@ class Base_gui_class {
 	check_canvas_offset() {
 		//calc canvas position offset
 		var bodyRect = document.body.getBoundingClientRect();
-		var canvas_el = document.getElementById('canvas_minipaint').getBoundingClientRect();
+		var canvas_el = document.getElementById('canvas_Solar Sign').getBoundingClientRect();
 		this.canvas_offset.x = canvas_el.left - bodyRect.left;
 		this.canvas_offset.y = canvas_el.top - bodyRect.top;
 	}
 
 	prepare_canvas() {
-		var canvas = document.getElementById('canvas_minipaint');
+		var canvas = document.getElementById('canvas_Solar Sign');
 		var ctx = canvas.getContext("2d");
 
 		var wrapper = document.getElementById('main_wrapper');
@@ -260,7 +260,7 @@ class Base_gui_class {
 			ctx.imageSmoothingEnabled = true;
 		}
 
-		this.render_canvas_background('canvas_minipaint');
+		this.render_canvas_background('canvas_Solar Sign');
 
 		//change wrapper dimensions
 		document.getElementById('canvas_wrapper').style.width = w + 'px';

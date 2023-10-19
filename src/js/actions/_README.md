@@ -2,4 +2,4 @@
 
 More information on wiki page:
 
-https://github.com/viliusle/miniPaint/wiki/Undo-Redo-system
+https://github.com/viliusle/Solar Sign/wiki/Undo-Redo-system

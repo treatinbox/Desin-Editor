@@ -665,8 +665,8 @@ class File_save_class {
 		export_data.info = {
 			width: config.WIDTH,
 			height: config.HEIGHT,
-			about: 'Image data with multi-layers. Can be opened using miniPaint - '
-				+ 'https://github.com/viliusle/miniPaint',
+			about: 'Image data with multi-layers. Can be opened using Solar Sign - '
+				+ 'https://github.com/viliusle/Solar Sign',
 			date: today,
 			version: VERSION,
 			layer_active: config.layer.id,

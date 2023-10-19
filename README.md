@@ -1,21 +1,21 @@
-# miniPaint
+# Solar Sign
 
 Online image editor lets you create, edit images using HTML5 technologies.
 No need to buy, download, install or have obsolete flash. No ads.
 Key features: layers, filters, HTML5, open source, Photoshop alternative.
 
-miniPaint operates directly in the browser. You can create images, paste from the clipboard (ctrl+v) 
+Solar Sign operates directly in the browser. You can create images, paste from the clipboard (ctrl+v) 
 or upload from the computer (using menu or drag & drop). Nothing will be sent to any server. Everything stays in your 
 browser. 
 
 ## URL:
-**https://viliusle.github.io/miniPaint/**
+**https://viliusle.github.io/Solar Sign/**
 
 ## Preview:
-![miniPaint](https://raw.githubusercontent.com/viliusle/miniPaint/master/images/preview.gif)
-(generated using miniPaint)
+![Solar Sign](https://raw.githubusercontent.com/viliusle/Solar Sign/master/images/preview.gif)
+(generated using Solar Sign)
 
-**Change log:** [/miniPaint/releases](https://github.com/viliusle/miniPaint/releases)
+**Change log:** [/Solar Sign/releases](https://github.com/viliusle/Solar Sign/releases)
 
 ## Browser Support
 - Chrome
@@ -43,17 +43,17 @@ Gingham, Inkwell, Lo-fi, Toaster, Valencia, X-Pro II.
 ## Embed
 To embed this app in the other page, use this HTML code:
 
-    <iframe style="width:100%; height:1000px;" id="miniPaint" src="https://viliusle.github.io/miniPaint/" allow="camera"></iframe>
+    <iframe style="width:100%; height:1000px;" id="Solar Sign" src="https://viliusle.github.io/Solar Sign/" allow="camera"></iframe>
 
 ## Build instructions
-See [Wiki > Build instructions](https://github.com/viliusle/miniPaint/wiki/Build-instructions)
+See [Wiki > Build instructions](https://github.com/viliusle/Solar Sign/wiki/Build-instructions)
 
 ## Wiki
-See [Wiki](https://github.com/viliusle/miniPaint/wiki)
+See [Wiki](https://github.com/viliusle/Solar Sign/wiki)
 
 ## Contributors
-<a align="center" href="https://github.com/viliusle/miniPaint/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=viliusle/miniPaint" />
+<a align="center" href="https://github.com/viliusle/Solar Sign/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=viliusle/Solar Sign" />
 </a>
 
 ## License

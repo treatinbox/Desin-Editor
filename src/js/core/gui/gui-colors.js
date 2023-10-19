@@ -1,5 +1,5 @@
 /*
- * miniPaint - https://github.com/viliusle/miniPaint
+ * Solar Sign - https://github.com/viliusle/Solar Sign
  * author: Vilius L.
  */
 

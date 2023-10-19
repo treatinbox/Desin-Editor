@@ -1,5 +1,5 @@
 /*
- * miniPaint - https://github.com/viliusle/miniPaint
+ * Solar Sign - https://github.com/viliusle/Solar Sign
  * author: Vilius L.
  */
 
@@ -97,7 +97,7 @@ class Base_tools_class {
 		});
 		document.addEventListener('touchmove', function (event) {
 			_this.dragMove(event);
-			if (event.target.id === "canvas_minipaint" && !$('.scroll').has($(event.target)).length)
+			if (event.target.id === "canvas_Solar Sign" && !$('.scroll').has($(event.target)).length)
 				event.preventDefault();
 		}, {passive: false});
 		document.addEventListener('touchend', function (event) {
@@ -125,7 +125,7 @@ class Base_tools_class {
 
 		var eventType = event.type;
 
-		if (event.target.id != 'canvas_minipaint' && event.target.id != 'main_wrapper') {
+		if (event.target.id != 'canvas_Solar Sign' && event.target.id != 'main_wrapper') {
 			//outside canvas
 			this.mouse_valid = false;
 		}
@@ -134,7 +134,7 @@ class Base_tools_class {
 		}
 
 		if (eventType === 'mousedown' || eventType === 'touchstart') {
-			if ((event.target.id != 'canvas_minipaint' && event.target.id != 'main_wrapper') || (event.which != 1 && eventType !== 'touchstart')) {
+			if ((event.target.id != 'canvas_Solar Sign' && event.target.id != 'main_wrapper') || (event.which != 1 && eventType !== 'touchstart')) {
 				this.mouse_click_valid = false;
 			}
 			else {

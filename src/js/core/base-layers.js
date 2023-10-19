@@ -1,5 +1,5 @@
 /*
- * miniPaint - https://github.com/viliusle/miniPaint
+ * Solar Sign - https://github.com/viliusle/Solar Sign
  * author: Vilius L.
  */
 
@@ -55,8 +55,8 @@ class Base_layers_class {
 		this.Image_trim = new Image_trim_class();
 		this.View_ruler = new View_ruler_class();
 
-		this.canvas = document.getElementById("canvas_minipaint");
-		this.ctx = document.getElementById("canvas_minipaint").getContext("2d");
+		this.canvas = document.getElementById("canvas_Solar Sign");
+		this.ctx = document.getElementById("canvas_Solar Sign").getContext("2d");
 		this.ctx_preview = document
 			.getElementById("canvas_preview")
 			.getContext("2d");

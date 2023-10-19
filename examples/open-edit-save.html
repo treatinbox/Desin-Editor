@@ -22,7 +22,7 @@
 
 <script>
 /**
- * will open image on minipaint
+ * will open image on Solar Sign
  * 
  * @param {string|image} image image or image id
  */
@@ -47,13 +47,13 @@ function open_image(image){
 }
 
 function open_json(){
-	var miniPaint = document.getElementById('myFrame').contentWindow;
-	var miniPaint_FileOpen = miniPaint.FileOpen;
+	var Solar Sign = document.getElementById('myFrame').contentWindow;
+	var Solar Sign_FileOpen = Solar Sign.FileOpen;
 
 	window.fetch("../images/test-collection.json").then(function(response) {
 		return response.json();
 	}).then(function(json) {
-		miniPaint_FileOpen.load_json(json, false);
+		Solar Sign_FileOpen.load_json(json, false);
 	}).catch(function(ex) {
 		alert('Sorry, image could not be loaded.');
 	});
@@ -84,10 +84,10 @@ function save_image(){
 }
 
 function save_json(){
-	var miniPaint = document.getElementById('myFrame').contentWindow;
-	var miniPaint_FileSave = miniPaint.FileSave;
+	var Solar Sign = document.getElementById('myFrame').contentWindow;
+	var Solar Sign_FileSave = Solar Sign.FileSave;
 
-	var data_json = miniPaint_FileSave.export_as_json();
+	var data_json = Solar Sign_FileSave.export_as_json();
 
 	document.getElementById('testJson').value = data_json;
 }

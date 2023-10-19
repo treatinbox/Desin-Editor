@@ -1,5 +1,5 @@
 /*
- * miniPaint - https://github.com/viliusle/miniPaint
+ * Solar Sign - https://github.com/viliusle/Solar Sign
  * author: Vilius L.
  */
 
@@ -54,7 +54,7 @@ class GUI_information_class {
 		}, false);
 
 		//show current mouse position
-		document.getElementById('canvas_minipaint').addEventListener('mousemove', function (e) {
+		document.getElementById('canvas_Solar Sign').addEventListener('mousemove', function (e) {
 			var global_pos = _this.Base_layers.get_world_coords(e.offsetX, e.offsetY);
 			var mouse_x = Math.ceil(global_pos.x);
 			var mouse_y = Math.ceil(global_pos.y);

@@ -1148,7 +1148,7 @@ class Text_editor_class {
 	constructor(options) {
 		options = options || {};
 
-		this.editingCtx = document.getElementById('canvas_minipaint').getContext("2d");
+		this.editingCtx = document.getElementById('canvas_Solar Sign').getContext("2d");
 		this.hasValueChanged = false;
 
 		// Text boundary and offsets are precomputed before drawn

@@ -1,11 +1,11 @@
 {
-	"name": "miniPaint",
-	"short_name": "miniPaint",
+	"name": "Solar Sign",
+	"short_name": "Solar Sign",
 	"start_url": "/",
 	"display": "standalone",
 	"orientation": "landscape",
 	"background_color": "#666d6f",
-	"description": "miniPaint is free online image editor using HTML5.",
+	"description": "Solar Sign is free online image editor using HTML5.",
 	"icons": [
 		{
 			"src": "images/manifest/48x48.png",

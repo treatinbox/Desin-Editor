@@ -1,5 +1,5 @@
 /*
- * miniPaint - https://github.com/viliusle/miniPaint
+ * Solar Sign - https://github.com/viliusle/Solar Sign
  * author: Vilius L.
  */
 
@@ -35,7 +35,7 @@ class GUI_tools_class {
 
 	load_plugins() {
 		var _this = this;
-		var ctx = document.getElementById('canvas_minipaint').getContext("2d");
+		var ctx = document.getElementById('canvas_Solar Sign').getContext("2d");
 		var plugins_context = require.context("./../../tools/", true, /\.js$/);
 		plugins_context.keys().forEach(function (key) {
 			if (key.indexOf('Base' + '/') < 0) {
