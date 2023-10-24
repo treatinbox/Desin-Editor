@@ -201,7 +201,7 @@ class GUI_tools_class {
 					element.classList.add('input_height');
 					element.innerHTML = icon;
 					element.title = k;
-					element.innerHTML = '<img style="width:16px;height:16px;" alt="'+title+'" src="images/icons/'+icon+'" />';
+					element.innerHTML = '<img style="width:16px;height:16px;" alt="'+title+'" src="./images/icons/'+icon+'" />';
 				} else {
 					element.classList.add('ui_toggle_button');
 				}
